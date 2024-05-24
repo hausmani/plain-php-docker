@@ -1,0 +1,66 @@
+# Composer
+/vendor/
+/composer.lock
+
+# PHPStorm
+.idea/
+
+# NetBeans
+nbproject/private/
+
+# Symfony
+/app/bootstrap.php.cache
+/app/cache/
+/app/logs/
+/app/config/parameters.yml
+/app/config/parameters.ini
+/app/config/parameters.php
+/app/config/parameters.yaml
+/app/config/parameters.yml.dist
+/app/config/parameters.ini.dist
+/app/config/parameters.php.dist
+/app/config/parameters.yaml.dist
+/app/config/*.swp
+
+# Laravel
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+.env
+Homestead.yaml
+Homestead.json
+.env.backup
+
+# Zend Framework
+/configs/application.ini
+
+# Docker
+/docker-compose.override.yml
+/.env
+
+# Cache and logs
+*.log
+cache/
+logs/
+
+# Other files
+*.bak
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# End of OS generated files #
